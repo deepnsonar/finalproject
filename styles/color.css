@@ -1,0 +1,52 @@
+/* Core Page Layout */
+body {
+    background-color: #ffffff; /* Explicitly forces white background */
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header & Navigation (matching your light layout) */
+header {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Product Cards (The soft gray boxes from your image) */
+.card {
+    background-color: #f8f9fa; /* A clean, soft off-white/gray */
+    border-radius: 12px;       /* Gives it those exact smooth, rounded corners */
+    padding: 20px;
+}
+
+/* Form Elements */
+input,
+textarea {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    color: #000000;
+}
+
+/* Buttons & Footer */
+.button,
+button {
+    background-color: #ffa500;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #a0a0a0;
+}
