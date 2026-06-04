@@ -48,6 +48,25 @@ nav a {
     color: #111;
 }
 
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+.cart {
+    margin-left: auto;
+    list-style: none;
+}
+
+.cart a {
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+}
+
 /* MAIN */
 main {
     padding: 60px 80px;
