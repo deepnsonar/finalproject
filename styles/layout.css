@@ -416,3 +416,83 @@ footer a:hover {
     background: #000;
     color: #fff;
 }
+
+/* STYLE GUIDE COLOR PALETTE */
+
+.palette-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.palette-table th,
+.palette-table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+}
+
+.palette-table th {
+    background: #f5f5f5;
+    font-size: 18px;
+}
+
+.chip {
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #999;
+}
+
+.black {
+    background: #000000;
+}
+
+.blue {
+    background: #27ADF5;
+}
+
+.red {
+    background: #ff0000;
+}
+
+.gray {
+    background: #808080;
+}
+
+.orange {
+    background: #FFA500;
+}
+
+.yellow {
+    background: #FFFF00;
+}
+
+.white {
+    background: #FFFFFF;
+}
+
+/* LICENSING TABLE */
+
+.license-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.license-table th,
+.license-table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.license-table th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+.license-table td {
+    line-height: 1.5;
+}
