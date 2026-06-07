@@ -497,3 +497,62 @@ footer a:hover {
 .license-table td {
     line-height: 1.5;
 }
+
+/* QAA IMPROVEMENT - MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav {
+        padding: 10px 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .cart {
+        margin-left: 0;
+    }
+
+    main {
+        padding: 30px 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        min-height: auto;
+    }
+
+    .hero h2 {
+        font-size: 48px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-section img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .shop-grid {
+        grid-template-columns: 1fr;
+    }
+}
